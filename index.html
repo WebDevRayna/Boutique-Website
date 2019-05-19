@@ -1,65 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
   </head>
+
   <body>
     <header>
-      <nav role="navigation" class="nav-container">
+      <!-- <nav role="promo" class="promo-container">
+        <ul class="header">
+          <li class="nav-brand">$2.95 Flat Rate Shipping//Free Shipping on orders of $100+</li>
+          <li class="nav-item">Log in</li>
+          <li class="nav-item">Create Account</li>
+        </ul>
+      </nav> -->
+
+      <!-- <nav role="navigation" class="nav-container">
         <ul class="nav-menu">
-          <li class="nav-brand nav-item">Kawaii Kitchen</li>
-          <li class=" nav-item"><a href="#">Our Story</a></li>
-          <li class=" nav-item"><a href="#">Menu</a></li>
+          <li class="nav-brand ">$2.95 Flat Rate Shipping//Free Shipping on orders of $100+</li>
+          <li class=" nav-item"><a href="#">Log in</a></li>
+          <li class=" nav-item"><a href="#">Create Account</a></li>
           <li class=" nav-item"><a href="#">Contact</a></li>
         </ul>
+      </nav> -->
+
+      <nav>
+        <div class="nav-wrapper teal lighten-4">
+          <a class="promo">$2.95 Flat Rate Shipping//Free Shipping on orders of $100+</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Create Account</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
-      <div class="feature-container flex-center">
-        <img class="feature-img" src="https://i.ibb.co/P1Z15YC/doughnuts.jpg" alt="doughnuts">
-          <div class="feature-text">
-            <h1 id="feature-tagline">The cuisine of cute.</h1>
-            <button>MENU</button>
+      <nav class="nav-extended teal lighten-2">
+        <div class="nav-wrapper">
+          <!-- <a href="#!" class="brand-logo">Logo</a> -->
+          <ul class="medias left hide-on-med-and-down">
+            <li><a href="#"></a><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"></a><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"></a><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
+        <div class="nav-content center-align">
+          <span class="nav-title">Authentic Grace</span>
+          <div class="nav-content">
+              <ul class=" tabs tabs-transparent">
+                <li class="tab"><a href="#">Dresses</a></li>
+                <li class="tab"><a href="#test2">Shoes</a></li>
+                <li class="tab"><a href="#">Accessories</a></li>
+                <li class="tab"><a href="#"></i>Sale</a></li>
+                <li class="tab"><a href="#">Dresses</a></li>
+                <li class="tab"><a href="#test2">Shoes</a></li>
+                <li class="tab"><a href="#">Accessories</a></li>
+                <li class="tab"><a href="#"></i>Sale</a></li>
+                <li class="tab"><a href="#">Accessories</a></li>
+                <li class="tab"><a href="#"></i>Sale</a></li>
+                <li class="tab"><a href="#">Accessories</a></li>
+                <li class="tab"><a href="#"></i>Sale</a></li>
+              </ul>
+            </div>
+          <!-- <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal">
+                <i class="material-icons">add</i>
+              </a> -->
+        </div>
+      </nav>
+
+      <!-- Images -->
+
+<!-- <div class="row">
+      <div class="col s12">This div is 12-columns wide on all screen sizes</div>
+      <div class="col s6">6-columns (one-half)</div>
+      <div class="col s6">6-columns (one-half)</div>
+    </div> -->
+
+      <div class="row">
+          <div class="col s3">
+            <div class="card">
+              <div class="card-image">
+                <img src="/images/romper.jpg">
+                <span class="card-title">Rompers</span>
+              </div>
+              <div class="card-content">
+                <p>Rompers</p>
+              </div>
+              <!-- <div class="card-action">
+                <a href="#">This is a link</a>
+              </div> -->
+            </div>
           </div>
-      </div>
-      <div class="about-container">
-        <div class="about-text">
-          <h2 class="heading" id="ourStory">Our Story</h2>
-          <img class="heading-img"  src="https://i.ibb.co/VJjfJGf/lemon.jpg" alt="lemon">
-          <p>Gummies powder carrot cake. Cheesecake danish bear claw caramels halvah. Carrot cake gummies cotton candy cake.Sweet sweet roll halvah toffee cheesecake brownie biscuit chocolate. Chupa chups cake jujubes cake. Cake donut cake.Halvah croissant gummi bears tart gummi bears croissant muffin candy. Lemon drops brownie bonbon sesame snaps pastry. Cake cake gummies bear claw tootsie roll sweet roll ice cream. Powder fruitcake cotton candy fruitcake gummies sweet. Lemon drops powder muffin macaroon. Pudding cotton candy soufflé cake bear claw candy muffin cupcake jelly. Bonbon macaroon cheesecake biscuit lemon drops chocolate dragée pie. Donut muffin oat cake tootsie roll lemon drops. Croissant bonbon sweet roll pastry cake croissant. Chupa chups tiramisu wafer. Gingerbread tootsie roll cupcake dragée jujubes pudding bonbon carrot cake danish. Lemon drops brownie halvah.</p>
+
+          <div class="col s3">
+              <div class="card">
+                <div class="card-image">
+                  <img src="/images/romper.jpg">
+                  <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">This is a link</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s3">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="/images/romper.jpg">
+                    <span class="card-title">Card Title</span>
+                  </div>
+                  <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s3">
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="/images/romper.jpg">
+                      <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                      <p>I am a very simple card. I am good at containing small bits of information.
+                      I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">This is a link</a>
+                    </div>
+                  </div>
+                </div>
         </div>
-      </div>
-      <div class="menu-container">
-        <h2 class="heading" id="menu">Menu</h2>
-        <div class="menu-gallery">
-          <figure class="jsLess">
-            <img class="menu-img" src="https://i.ibb.co/cxSxn6B/cute-monster.jpg" alt="cute-monster">
-            <figcaption>Kawaii Ice Cream Sandwich</figcaption>
-          </figure>
-          <figure class="jsLess">
-              <img class="menu-img" src="https://i.ibb.co/0mWRmSG/totoro-bento.jpg" alt="totoro-bento">
-              <figcaption>Totoro Lunch Box</figcaption>
-            </figure>
-            <figure class="jsLess">
-                <img class="menu-img" src="https://i.ibb.co/WNhdJbs/pink-swirl.jpg" alt="pink-swirl">
-                <figcaption>Pink Rose Macaron</figcaption>
-              </figure>
-        </div>
-      </div>
-      <div class="contact-container">
-        <h2 class="heading" id="contact">Contact Us</h2>
-        <img class="heading-img" src="https://i.ibb.co/9gyFxK1/ice-cream-truck.jpg" alt="ice-cream-truck">
-        <ul class="contact-menu">
-          <li class="contact-info" id="telephone">Telephone: 12 3456 7890</li>
-          <li class="contact-info" id="address">Address: 3-chome Harajuku, Tokyo, Japan</li>
-          <li class="contact-info" id="email"><a href="#">Email: kawaiikitchen@somewhere.com</a></li>
-        </ul>
-      </div>
+
     </main>
+
+    
     <footer>
-      <h3>©2019 Wendy Kakuda</h3>
+      <h6>©2019 Cohort 2</h6>
     </footer>
   </body>
-  <script type="text/javascript" src="index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script type="javascript" src="app.js"></script>
 </html>
