@@ -1,14 +1,22 @@
 
 .promo {
    padding: 10px;
+   font-family: 'Lobster', cursive;
 }
 
 .medias {
     margin-left: 10px;
-}
+    color:black;
+    }
 
 .nav-content {
     padding: 30px;
    
 }
+.nav-title {
+    color:black; 
+}
 
+.tab{ 
+    color: black; 
+}
